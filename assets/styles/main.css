@@ -101,6 +101,8 @@ input:checked + label svg.moon path {
 }
 
 .switch-dark-wrapper {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
 }
 
@@ -122,6 +124,8 @@ input#switch-dark:checked + label:after {
 
 .links {
     display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
 }
 
