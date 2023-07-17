@@ -122,17 +122,17 @@ input#switch-dark:checked + label:after {
     padding: 0;
 }
 
-.nav-list:not(:last-child) {
+.nav-item:not(:last-child) {
     margin-right: 1rem;
 }
 
-.nav-list svg {
+.item-link svg {
     max-width: 30px;
     height: fit-content;
     transition: 0.2s;
 }
 
-.nav-list:hover svg {
+.nav-item:hover svg {
     transform: scale(1.1);
 }
 
