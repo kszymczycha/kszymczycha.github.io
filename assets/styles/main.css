@@ -33,6 +33,7 @@ body {
     min-height: 100%;
 }
 
+/*
 .header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -41,7 +42,7 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-
+*/
 label[for="switch-dark"] {
     top: 10px;	
     width: 100px;
@@ -105,9 +106,10 @@ input:checked + label svg.moon path {
 }
 
 .switch-dark-wrapper {
-    -webkit-box-flex: 1;
+    display: inline-block;
+    /*-webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1;
+    flex: 1;*/
 }
 
 input#switch-dark {
@@ -127,10 +129,12 @@ input#switch-dark:checked + label:after {
 } 
 
 .links {
-    display: flex;
+    /*display: flex;
     -webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1;
+    flex: 1;*/
+    display: inline-block;
+    float: right;
 }
 
 .menu {
