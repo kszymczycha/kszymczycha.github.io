@@ -116,9 +116,8 @@ input#switch-dark:checked + label:after {
     background: linear-gradient(180deg, #777, #3e3e3e);
 } 
 
-.navigation {
+.links {
     display: flex;
-    width: 50%;
 }
 
 .menu {
