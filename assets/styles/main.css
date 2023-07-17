@@ -126,7 +126,7 @@ input#switch-dark:checked + label:after {
     margin-right: 1rem;
 }
 
-.item-link svg {
+.nav-item svg {
     max-width: 30px;
     height: fit-content;
     transition: 0.2s;
