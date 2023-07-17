@@ -118,6 +118,7 @@ input#switch-dark:checked + label:after {
 
 .navigation {
     display: flex;
+    width: 50%;
 }
 
 .menu {
