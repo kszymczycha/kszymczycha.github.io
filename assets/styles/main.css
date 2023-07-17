@@ -47,6 +47,8 @@ label[for="switch-dark"] {
     border-radius: 200px;
     cursor: pointer;
     transition: .3s;
+    display: inline-block;
+    min-width: 100px;
 }
 
 label[for="switch-dark"]:after {
@@ -122,6 +124,7 @@ input#switch-dark:checked + label:after {
     margin-left: auto;
     display: flex;
     list-style-type: none;
+    padding: 0;
 }
 
 .menu-item:not(:last-child) {
