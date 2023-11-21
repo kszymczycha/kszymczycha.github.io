@@ -84,7 +84,6 @@ body {
     width: 5.5rem;
     top: 15rem;
     right: 5rem;
-    z-index: -1;
 }
 
 .content {
@@ -101,12 +100,16 @@ body {
     font-weight: 700;
     margin: 0;
     color: var(--title-font-clr);
+    z-index: 1;
+    position: relative;
 }
 
 .person {
     font-size: calc(var(--person-font-multiplier) * 1rem);
     margin: 0;
     color: var(--person-font-clr);
+    z-index: 1;
+    position: relative;
 }
 
 .nav ul {
