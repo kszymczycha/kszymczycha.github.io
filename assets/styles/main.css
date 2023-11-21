@@ -122,6 +122,10 @@ body {
     justify-content: flex-end;
 }
 
+.nav ul li {
+    z-index: 1;
+}
+
 .link {
     text-decoration: none;
     font-size: calc(var(--button-font-multiplier) * 1rem);
