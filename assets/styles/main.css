@@ -46,11 +46,11 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 3rem 1.5rem;
     display: flex;
     flex-direction: column;
-    height: calc(100% - 3rem);
-    justify-content: space-around;
+    height: calc(100% - 6rem);
+    justify-content: space-between;
     position: relative;
     gap: 3rem;
 }
@@ -147,9 +147,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .circles {
+    /* .circles {
         display: none;
-    }
+    } */
 
     .content {
         width: auto;
@@ -158,6 +158,11 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+    .circles {
+        top: 15rem;
+        right: 1rem;
+    }
+
     .title {
         --title-font-multiplier: 2;
         text-align: center;
