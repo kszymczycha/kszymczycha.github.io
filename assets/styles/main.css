@@ -25,6 +25,14 @@
     --link-secondary-clr: #FFFFFF;
 }
 
+.hyphenate {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
 html {
     font-family: var(--font-family);
     font-size: var(--font-size);
@@ -148,10 +156,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    /* .circles {
-        display: none;
-    } */
-
     .content {
         width: auto;
         padding-top: 1rem;
@@ -160,8 +164,18 @@ body {
 
 @media only screen and (max-width: 576px) {
     .circles {
-        top: 15rem;
+        width: 4rem;
+        top: 20rem;
         right: 1rem;
+    }
+
+    .circles::before {
+      width: 2rem;
+      right: 10rem;
+    }
+
+    .circles::after {
+      width: 3rem;
     }
 
     .title {
